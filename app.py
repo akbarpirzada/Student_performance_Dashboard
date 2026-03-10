@@ -9,7 +9,7 @@ import numpy as np
 # ────────────────────────────────────────────────────────────────
 
 st.set_page_config(
-    page_title="Student Performance Dashboard | TITAN SUKKUR",
+    page_title="Student Performance Dashboard ",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -156,7 +156,7 @@ if "All" not in selected_lunch:
 # ────────────────────────────────────────────────────────────────
 
 st.markdown('<div class="header-title">Student Performance Dashboard</div>', unsafe_allow_html=True)
-st.markdown('<div class="header-subtitle">TITAN SUKKUR – Interactive Analysis of Student Exam Scores</div>', unsafe_allow_html=True)
+st.markdown('<div class="header-subtitle">– Interactive Analysis of Student Exam Scores</div>', unsafe_allow_html=True)
 
 # ────────────────────────────────────────────────────────────────
 #  KPI Cards
@@ -296,7 +296,7 @@ footer_col1, footer_col2 = st.columns([3,1])
 with footer_col1:
     st.markdown("""
     **Student Performance Dashboard**  
-    Built for TITAN SUKKUR • Data source: StudentsPerformance.csv  
+    Built for Demo • Data source: StudentsPerformance.csv  
     Created with ❤️ using Streamlit, Pandas, Matplotlib & Seaborn
     """)
 
@@ -305,3 +305,4 @@ with footer_col2:
     **Last refreshed**  
     {pd.Timestamp.now().strftime('%Y-%m-%d %H:%M PKT')}
     """)
+
