@@ -86,5 +86,3 @@ The dashboard expects a CSV file with the following columns:
 **Developed by:** Akbar Pirzada
 
 ---
-
-**Would you like me to help you generate a `requirements.txt` file or a specific "About" section for this dashboard?**
